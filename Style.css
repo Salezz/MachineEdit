@@ -516,9 +516,10 @@ footer p {
     }
 
     .Text-sobre {
-        width: 550px;
+        width: 480px;
         position: absolute;
         padding: 20px;
+        justify-content: center;
         text-align: center;
         background-color: #101010c1;
       }
