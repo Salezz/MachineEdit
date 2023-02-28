@@ -508,15 +508,17 @@ footer p {
         margin-top: 50px;
     }
 
-    .videos, .videos2, .videos3 {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 80%;  
+    .videos5 {
+        width: 100%;  
+        display: flex;
+        flex-flow: nowrap;
+        gap: 15px;
+        overflow-x: auto; 
+        
     }
 
     .Text-sobre {
-        width: 400px;
+        width: 480px;
         position: absolute;
         padding: 20px;
         justify-content: center;
