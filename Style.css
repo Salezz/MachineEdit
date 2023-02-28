@@ -159,16 +159,18 @@ iframe {
  }
 
 .fotoperfil {
-        width: 60%;
+        width: 100%;
         border-radius: 40%; 
         opacity: 0.8;
+        min-width: 320px;
+        max-width: 800px;
 }
 
 .fotoperfil:hover {
     opacity: 1;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -177,24 +179,24 @@ nav{
     padding-right: 8%;
 }
 
-.logo{
+.logo {
     color: #fff;
     font-size: 35px;
     cursor: pointer;
     letter-spacing: 1px;
 }
 
-span{
+span {
     color: #f9004d;
 }
 
-nav ul li{
+nav ul li {
     list-style-type: none;
     display: inline-block;
     padding: 10px  25px;
 }
 
-nav ul li a{
+nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
@@ -308,12 +310,16 @@ h3 {
     font-size: 75px;
     text-transform: capitalize;
     margin-bottom: 20px;
+    min-width: 320px;
+    max-width: 800px;
 }
 
 .Text-sobre h5 {
     color: #fff;
     letter-spacing: 2px;
     font-size: 22px;
+    min-width: 320px;
+    max-width: 800px;
     margin-bottom: 25px;
     text-transform: capitalize;
 }
@@ -322,6 +328,8 @@ h3 {
     color: rgba(253, 94, 253, 0.8);
     letter-spacing: 1px;
     line-height: 28px;
+    min-width: 320px;
+    max-width: 800px;
     font-size: 18px;
     margin-bottom: 45px;
 }
@@ -352,9 +360,10 @@ button:hover {
 .title h2 {
     color: #fff;
     font-size: 75px;
-    width: 1130px;
     margin: 30px auto;
     text-align: center;
+    min-width: 320px;
+    max-width: 800px;
 }
 
 .Caixa {
@@ -409,14 +418,19 @@ h5 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center ;
+    align-items: center;
 }
 
 .me-contate p {
     color: #fff;
     font-size: 30px;
     font-weight: bold;
+    text-align: center;
     margin-bottom: 25px;
+    width: 100%;
+    min-width: 320px;
+    max-width: 800px;
+    padding: 10px;
 }
 
 footer {
@@ -438,11 +452,13 @@ footer h6 {
 footer p {
     color: #fff;
     font-size: 15px;
-    width: 500px;
     text-align: center;
     margin-top: 15px;
     letter-spacing: 1px;
     line-height: 23px;
+    min-width: 320px;
+    max-width: 800px;
+    padding: 10px;
 }
 
 .Redes-sociais {
@@ -476,4 +492,64 @@ footer p {
     color: #f9004d;
     bottom: 35px;
     font-size: 14px ;
+}
+
+@media screen and (max-width: 600px) {
+    .btn {
+        text-align: center;
+    }
+
+    .videos {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%; 
+    }
+
+    .videos2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        width: 100%;
+    }
+
+    .videos3{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .Text-sobre {
+        width: 550px;
+        position: absolute;
+        padding: 20px;
+        text-align: center;
+        background-color: #101010c1;
+      }
+    
+    .main-sobre {
+       display: flex;
+       align-items: center;
+       justify-content: space-around;
+       width: 100%;
+       padding: 10px;
+       margin: 0 auto;
+    }
+    
+    .Text-sobre h5 {
+        color: #fff;
+        letter-spacing: 2px;
+        font-size: 18px;
+        
+    }
+    
+    .Text-sobre p {
+        color: rgba(253, 94, 253, 0.8);
+        letter-spacing: 1px;
+        line-height: 28px;
+        font-size: 18px;
+        margin: 20px;
+        
+    }
 }
