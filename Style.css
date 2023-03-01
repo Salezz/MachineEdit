@@ -14,17 +14,17 @@ body {
         width: 100%;
         background-attachment: fixed;
         background-repeat: no-repeat;
+        
     
     }
 
 .background {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7))
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
-
+    
 }
 
 .backgroundY, .backgroundport, .backgroundW {
@@ -33,6 +33,25 @@ body {
     background-position: center;
     height: 100vh;
     width: 100%;
+}
+
+.Container-form {
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.Container-form input {
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #8a0b33;
+    border-radius: 30px;
+    margin: 10px 10px;
+}
+
+.Container-form input#mensagemvisitante {
+    padding: 40px;
 }
 
 .container {
@@ -241,6 +260,10 @@ h1 {
     color: #fff;
     margin: 20px 0px 20px;
     font-size: 75px;
+}
+
+h2 {
+    color: aliceblue;
 }
 
 h4 {
