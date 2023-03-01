@@ -4,19 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="/imgs/favicon.png" type="image/x-icon">
     <title>Contato</title>
 </head>
 <body>
+    <!---Cabeçalho-Main-->
+    <div class="background">
+        <nav>
+            <h2 class="logo">Bem<span> vindo</span></h2><!--Logo-->
+            <ul class="cabeçalho-link">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="equipe.html">Quem somos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul><!--cabeçalho-link-->
+        </nav>
     <!-- Formulário -->
     <div class="Container-form">
         <form action="" method="post" autocomplete="on">
-            <h2><label for="emailvisitante">Email: </label>
-                <input type="email" name="emailvisit" id="emailvisitante">
+            <h1 class="tituloform">Faça um <span>orçamento</span> sem compromisso</h1>
+            <h2><label for="emailvisitante" >Email: </label>
+                <input type="email" name="emailvisit" id="emailvisitante" placeholder="melhor email para respondermos você">
             </h2>
             <h2><label for="mensagemvisitante">Mensagem: </label>
                 <input type="text" name="msgmvisit" id="mensagemvisitante" placeholder="Descreva seu projeto pra gente conversar">
             </h2>
-            <input type="submit" value="Enviar" class="btn">
+            <input type="submit" value="Enviar" class="btnform">
         </form>
     </div>
 </body>

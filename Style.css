@@ -14,8 +14,6 @@ body {
         width: 100%;
         background-attachment: fixed;
         background-repeat: no-repeat;
-        
-    
     }
 
 .background {
@@ -23,8 +21,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
-    width: 100%;
-    
+    width: 100%;   
 }
 
 .backgroundY, .backgroundport, .backgroundW {
@@ -39,6 +36,22 @@ body {
     width: 380px;
     max-width: 100%;
     position: relative;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.tituloform {
+    font-size: 40px;
+}
+
+.btnform {
+    background-color: #f9004d;
+    color: rgb(213, 220, 225);
+    cursor: pointer;
+}
+
+.btnform:hover {
+    background-color: #10101091;
 }
 
 .Container-form input {
@@ -88,6 +101,7 @@ body {
     opacity: 0.5;
     transition: all 600ms ease-in-out;
 }
+
 .arrow-left:hover {
     opacity: 1;
 }
@@ -536,6 +550,11 @@ footer p {
         background-color: #101010c1;
       }
     
+    .Main {
+        width: 400px;
+    }
+    
+
     .main-sobre {
        display: flex;
        align-items: center;
@@ -543,6 +562,10 @@ footer p {
        width: 400px;
        padding: 10px;
        margin: 0 auto;
+    }
+
+    .Text-sobre {
+        width: 380px;
     }
     
     .Text-sobre h2 {
