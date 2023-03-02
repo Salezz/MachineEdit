@@ -519,6 +519,23 @@ footer p {
 }
 
 @media screen and (max-width: 828px) {
+
+    body {
+        width: 400px;
+    }
+
+    body.background {
+        width: 400px;
+    }
+
+    .Container-form {
+        margin: 40px 40px
+    }
+
+    .background li{
+        width: 400px;
+    }
+
     .btn {
         text-align: center;
     }
@@ -530,6 +547,7 @@ footer p {
 
     iframe {
         width: 400px;
+        margin-right: 20px;
     }
 
     .videos5 {
@@ -551,16 +569,24 @@ footer p {
       }
     
     .Main {
+        margin-top: 70px;
         width: 400px;
     }
     
+    .background-color-Sobre {
+        width: 400px;
+    }
+
+    .Container-btn {
+        width: 200px;
+    }
 
     .main-sobre {
        display: flex;
        align-items: center;
        justify-content: space-around;
        width: 400px;
-       padding: 10px;
+       padding: 20px;
        margin: 0 auto;
     }
 
@@ -588,7 +614,6 @@ footer p {
         letter-spacing: 1px;
         line-height: 28px;
         font-size: 18px;
-        margin: 20px;
-        
+        margin: 20px;   
     }
 }
